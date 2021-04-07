@@ -43,7 +43,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define ENCODERS_PAD_B_RIGHT { D4 }
 
 /* Set 0 if debouncing isn't needed */
-#define DEBOUNCE 5
+// #define DEBOUNCE 5
+#define DEBOUNCE 20
 
 #define BACKLIGHT_PIN B5
 #define CAPS_LOCK_LED_PIN B6
